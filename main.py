@@ -9,8 +9,8 @@ from urllib3.exceptions import HTTPError, MaxRetryError
 import urllib3
 import json
 
-# base_url = 'http://loginrestformobileapp.herokuapp.com/'
-base_url = 'http://127.0.0.1:8000/'
+base_url = 'http://loginrestformobileapp.herokuapp.com/'
+# base_url = 'http://127.0.0.1:8000/'
 user_key = 0
 
 store = JsonStore('token.json')
